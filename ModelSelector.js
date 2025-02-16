@@ -1,8 +1,7 @@
 import React from 'react';
 
 const ModelSelector = ({ selectedModel, setSelectedModel }) => {
-    const models = ['model1', 'model2']; // Add more models as needed
-
+    const models = ['model1', 'model2']; 
     return (
         <div>
             <label htmlFor="model-select">Select a Model:</label>
